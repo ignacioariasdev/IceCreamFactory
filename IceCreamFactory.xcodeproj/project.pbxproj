@@ -13,6 +13,12 @@
 		70767A0C21C6D73300017090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70767A0B21C6D73300017090 /* Assets.xcassets */; };
 		70767A0F21C6D73300017090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70767A0D21C6D73300017090 /* LaunchScreen.storyboard */; };
 		70767A1A21C6D73300017090 /* IceCreamFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70767A1921C6D73300017090 /* IceCreamFactoryTests.swift */; };
+		70767A2521C6D86700017090 /* IceCream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70767A2421C6D86700017090 /* IceCream.swift */; };
+		70767A2621C6D86700017090 /* IceCream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70767A2421C6D86700017090 /* IceCream.swift */; };
+		70767A2821C6D94500017090 /* IceCreamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70767A2721C6D94500017090 /* IceCreamController.swift */; };
+		70767A2921C6D94500017090 /* IceCreamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70767A2721C6D94500017090 /* IceCreamController.swift */; };
+		70767A2B21C6EEEF00017090 /* IceCreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70767A2A21C6EEEF00017090 /* IceCreamTests.swift */; };
+		70767A2D21C6F0CA00017090 /* IceCreamControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70767A2C21C6F0CA00017090 /* IceCreamControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,10 @@
 		70767A1521C6D73300017090 /* IceCreamFactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceCreamFactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70767A1921C6D73300017090 /* IceCreamFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamFactoryTests.swift; sourceTree = "<group>"; };
 		70767A1B21C6D73300017090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70767A2421C6D86700017090 /* IceCream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCream.swift; sourceTree = "<group>"; };
+		70767A2721C6D94500017090 /* IceCreamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamController.swift; sourceTree = "<group>"; };
+		70767A2A21C6EEEF00017090 /* IceCreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamTests.swift; sourceTree = "<group>"; };
+		70767A2C21C6F0CA00017090 /* IceCreamControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,8 @@
 		70767A0321C6D73100017090 /* IceCreamFactory */ = {
 			isa = PBXGroup;
 			children = (
+				70767A2421C6D86700017090 /* IceCream.swift */,
+				70767A2721C6D94500017090 /* IceCreamController.swift */,
 				70767A0421C6D73100017090 /* AppDelegate.swift */,
 				70767A0621C6D73100017090 /* ViewController.swift */,
 				70767A0821C6D73100017090 /* Main.storyboard */,
@@ -91,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				70767A1921C6D73300017090 /* IceCreamFactoryTests.swift */,
+				70767A2A21C6EEEF00017090 /* IceCreamTests.swift */,
+				70767A2C21C6F0CA00017090 /* IceCreamControllerTests.swift */,
 				70767A1B21C6D73300017090 /* Info.plist */,
 			);
 			path = IceCreamFactoryTests;
@@ -197,8 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70767A2821C6D94500017090 /* IceCreamController.swift in Sources */,
 				70767A0721C6D73100017090 /* ViewController.swift in Sources */,
 				70767A0521C6D73100017090 /* AppDelegate.swift in Sources */,
+				70767A2521C6D86700017090 /* IceCream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70767A2621C6D86700017090 /* IceCream.swift in Sources */,
+				70767A2D21C6F0CA00017090 /* IceCreamControllerTests.swift in Sources */,
+				70767A2921C6D94500017090 /* IceCreamController.swift in Sources */,
+				70767A2B21C6EEEF00017090 /* IceCreamTests.swift in Sources */,
 				70767A1A21C6D73300017090 /* IceCreamFactoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
